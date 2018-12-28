@@ -35,6 +35,9 @@ def printer (attendees)
   new_badge_array.each do |line|
     puts line
   end
-  puts new_rooms_array
+  
+  new_rooms_array.each do |lineb|
+    puts lineb
+  
 end
   
