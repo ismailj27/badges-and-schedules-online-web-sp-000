@@ -32,7 +32,9 @@ def printer (attendees)
   new_badge_array = batch_badge_creator (attendees)
   new_rooms_array = assign_rooms (attendees)
   
-  puts new_badge_array
+  new_badge_array.each do |line|
+    puts line
+  end
   puts new_rooms_array
 end
   
