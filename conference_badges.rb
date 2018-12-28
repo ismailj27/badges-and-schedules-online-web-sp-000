@@ -15,7 +15,7 @@ def batch_badge_creator (names)
 end
   
   
-def assign_rooms (speakers)
+def assign_rooms (speakers, room)
   rooms_array = []
   rooms = speakers.length
   while room < rooms
