@@ -18,7 +18,7 @@ end
 def assign_rooms (speakers)
   rooms_array = []
   rooms = speakers.length
-  while room < 7
+  while room < rooms
     speakers.each do |speaker|
       rooms_array.push("Hello, #{speaker}! You'll be assigned to room #{room}!")
       room += 1
