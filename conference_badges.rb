@@ -31,6 +31,8 @@ end
 def printer (attendees)
   attendees.each do |speaker|
     puts batch_badge_creator (speaker)
+  end
+  attendees.each do |speaker|
     puts assign_rooms (speaker)
   end
 end
