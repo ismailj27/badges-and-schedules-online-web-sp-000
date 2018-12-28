@@ -38,6 +38,7 @@ def printer (attendees)
   
   new_rooms_array.each do |lineb|
     puts lineb
+  end
   
 end
   
